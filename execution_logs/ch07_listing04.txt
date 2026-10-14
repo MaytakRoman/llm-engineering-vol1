@@ -1,0 +1,4 @@
+length 256 tail accuracy [1.0, 1.0, 1.0]
+length 1024 tail accuracy [0.0, 1.0, 1.0]
+length 4096 tail accuracy [0.0, 0.0, 1.0]
+Wilson 45/50 0.7863950966521162 0.956524876008429

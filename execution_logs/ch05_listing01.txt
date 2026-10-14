@@ -1,0 +1,4 @@
+Correct global gradient: [ 0.24915631  0.32176821 -0.84791552  0.10574043]
+Wrong averaging error: 0.5227806450637708
+Tensor groups: [[np.int64(0), np.int64(1)], [np.int64(2), np.int64(3)], [np.int64(4), np.int64(5)], [np.int64(6), np.int64(7)]]
+Data groups: [[np.int64(0), np.int64(2), np.int64(4), np.int64(6)], [np.int64(1), np.int64(3), np.int64(5), np.int64(7)]]

@@ -1,0 +1,4 @@
+{'gpus': 8, 'dp': 8, 'tp': 1, 'pp': 1, 'accumulation': 16, 'batch_tokens': 262144, 'parameters': 1072269312, 'steps': 76294, 'state_gib': 15.978057861328125, 'operations': 128672317440000000000, 'ideal_hours': 111.69472}
+{'gpus': 16, 'dp': 16, 'tp': 1, 'pp': 1, 'accumulation': 8, 'batch_tokens': 262144, 'parameters': 1072269312, 'steps': 76294, 'state_gib': 15.978057861328125, 'operations': 128672317440000000000, 'ideal_hours': 55.84736}
+{'gpus': 32, 'dp': 32, 'tp': 1, 'pp': 1, 'accumulation': 4, 'batch_tokens': 262144, 'parameters': 1072269312, 'steps': 76294, 'state_gib': 15.978057861328125, 'operations': 128672317440000000000, 'ideal_hours': 27.92368}
+{'gpus': 64, 'dp': 64, 'tp': 1, 'pp': 1, 'accumulation': 2, 'batch_tokens': 262144, 'parameters': 1072269312, 'steps': 76294, 'state_gib': 15.978057861328125, 'operations': 128672317440000000000, 'ideal_hours': 13.96184}

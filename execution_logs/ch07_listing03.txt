@@ -1,0 +1,5 @@
+bytes per token 131072
+admitted [(4096, 1024), (8192, 2048), (16384, 4096)]
+rejected [(32768, 4096)]
+reserved GiB 4.375
+missing output reserve GiB 0.875

@@ -1,0 +1,6 @@
+beta 0.998001
+half tokens 90806753.58192438
+decay 0.19998999999992773 factor 0.9048328935585562
+width 16 normalized variance 2.5
+width 64 normalized variance 7.300000000000001
+width 256 normalized variance 26.5

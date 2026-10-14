@@ -1,0 +1,3 @@
+authorization: 4/4
+zero failures among 100: (0.0, 0.03699480747600191)
+zero failures among 1000: (0.0, 0.003826898586390522)

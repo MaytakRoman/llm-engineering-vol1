@@ -1,0 +1,3 @@
+KV heads 32 GiB 16.0
+KV heads 8 GiB 4.0
+KV heads 1 GiB 0.5

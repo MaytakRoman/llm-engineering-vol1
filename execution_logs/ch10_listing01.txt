@@ -1,0 +1,4 @@
+bits 4 group 16 relative error 0.08730635633617222
+bits 4 group 64 relative error 0.1110225444294246
+bits 8 group 16 relative error 0.004998600657796884
+bits 8 group 64 relative error 0.00589730229447452

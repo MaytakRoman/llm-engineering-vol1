@@ -1,0 +1,123 @@
+{
+  "seed": 20261006,
+  "context": 128,
+  "embedding": 8,
+  "hidden": 64,
+  "vocab": 256,
+  "parameters": 84288,
+  "split": [
+    144,
+    48,
+    48
+  ],
+  "initial_answer_nll": 5.545773174135121,
+  "final_answer_nll": 0.04400767187603697,
+  "validation_accuracy": 0.8333333333333334,
+  "test_correct": 48,
+  "test_total": 48,
+  "confusion": [
+    [
+      16,
+      0,
+      0
+    ],
+    [
+      0,
+      16,
+      0
+    ],
+    [
+      0,
+      0,
+      16
+    ]
+  ],
+  "trace": [
+    [
+      "pretrain",
+      0,
+      5.542761030896858
+    ],
+    [
+      "pretrain",
+      50,
+      2.8633236209940858
+    ],
+    [
+      "pretrain",
+      100,
+      3.0328262736223444
+    ],
+    [
+      "pretrain",
+      150,
+      2.4948464472882748
+    ],
+    [
+      "pretrain",
+      200,
+      1.7925151252543217
+    ],
+    [
+      "pretrain",
+      250,
+      1.3623130821090272
+    ],
+    [
+      "adapt",
+      0,
+      0.5586401862695936
+    ],
+    [
+      "adapt",
+      100,
+      0.0050973491577362105
+    ],
+    [
+      "adapt",
+      200,
+      0.0026786436708939043
+    ],
+    [
+      "adapt",
+      300,
+      0.0014027768731323888
+    ],
+    [
+      "adapt",
+      400,
+      0.001121390589571623
+    ],
+    [
+      "adapt",
+      500,
+      0.0008507491681547873
+    ]
+  ],
+  "corpus_sha256": "9157e425123aaa61740a002705c42cd8b253338dc95386794841c486a2189257",
+  "rule_original_correct": 48,
+  "challenge": {
+    "синоним": {
+      "total": 24,
+      "network_correct": 16,
+      "rule_correct": 0,
+      "rule_abstain": 24
+    },
+    "отрицание": {
+      "total": 24,
+      "network_correct": 14,
+      "rule_correct": 0,
+      "rule_abstain": 24
+    },
+    "описание": {
+      "total": 24,
+      "network_correct": 0,
+      "rule_correct": 0,
+      "rule_abstain": 24
+    }
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  }
+}

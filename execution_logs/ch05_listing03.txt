@@ -1,0 +1,2 @@
+Corrupted checkpoint rejected
+Incomplete checkpoint rejected

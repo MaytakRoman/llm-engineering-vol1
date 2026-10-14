@@ -1,0 +1,2 @@
+arrival interval 2.5 mean waiting 2.025 p95 completion 10.0
+arrival interval 1.5 mean waiting 20.025 p95 completion 40.025

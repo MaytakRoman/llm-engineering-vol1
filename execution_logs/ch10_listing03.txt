@@ -1,0 +1,4 @@
+block 8 allocated 272 waste 28
+block 16 allocated 304 waste 60
+block 32 allocated 352 waste 108
+block 64 allocated 448 waste 204

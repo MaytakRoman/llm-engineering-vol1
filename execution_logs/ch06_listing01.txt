@@ -1,0 +1,2 @@
+Final synthetic loss: 5.4209284478648356e-08
+Resume is identical
