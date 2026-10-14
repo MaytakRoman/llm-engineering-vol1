@@ -1,0 +1,267 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "runs": [
+    {
+      "file": "case_experiment.py",
+      "returncode": 0,
+      "seconds": 9.8397,
+      "stdout": "{\n  \"seed\": 20261006,\n  \"context\": 128,\n  \"embedding\": 8,\n  \"hidden\": 64,\n  \"vocab\": 256,\n  \"parameters\": 84288,\n  \"split\": [\n    144,\n    48,\n    48\n  ],\n  \"initial_answer_nll\": 5.545773174135121,\n  \"final_answer_nll\": 0.04400767187603697,\n  \"validation_accuracy\": 0.8333333333333334,\n  \"test_correct\": 48,\n  \"test_total\": 48,\n  \"confusion\": [\n    [\n      16,\n      0,\n      0\n    ],\n    [\n      0,\n      16,\n      0\n    ],\n    [\n      0,\n      0,\n      16\n    ]\n  ],\n  \"trace\": [\n    [\n      \"pretrain\",\n      0,\n      5.542761030896858\n    ],\n    [\n      \"pretrain\",\n      50,\n      2.8633236209940858\n    ],\n    [\n      \"pretrain\",\n      100,\n      3.0328262736223444\n    ],\n    [\n      \"pretrain\",\n      150,\n      2.4948464472882748\n    ],\n    [\n      \"pretrain\",\n      200,\n      1.7925151252543217\n    ],\n    [\n      \"pretrain\",\n      250,\n      1.3623130821090272\n    ],\n    [\n      \"adapt\",\n      0,\n      0.5586401862695936\n    ],\n    [\n      \"adapt\",\n      100,\n      0.0050973491577362105\n    ],\n    [\n      \"adapt\",\n      200,\n      0.0026786436708939043\n    ],\n    [\n      \"adapt\",\n      300,\n      0.0014027768731323888\n    ],\n    [\n      \"adapt\",\n      400,\n      0.001121390589571623\n    ],\n    [\n      \"adapt\",\n      500,\n      0.0008507491681547873\n    ]\n  ],\n  \"corpus_sha256\": \"9157e425123aaa61740a002705c42cd8b253338dc95386794841c486a2189257\",\n  \"rule_original_correct\": 48,\n  \"challenge\": {\n    \"синоним\": {\n      \"total\": 24,\n      \"network_correct\": 16,\n      \"rule_correct\": 0,\n      \"rule_abstain\": 24\n    },\n    \"отрицание\": {\n      \"total\": 24,\n      \"network_correct\": 14,\n      \"rule_correct\": 0,\n      \"rule_abstain\": 24\n    },\n    \"описание\": {\n      \"total\": 24,\n      \"network_correct\": 0,\n      \"rule_correct\": 0,\n      \"rule_abstain\": 24\n    }\n  },\n  \"environment\": {\n    \"python\": \"3.12.14\",\n    \"numpy\": \"2.3.5\"\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch01_listing01.py",
+      "returncode": 0,
+      "seconds": 0.3011,
+      "stdout": "causal_error 0.0\nincremental_error 8.881784197001252e-16\nnegative_control_error 701.0550878307915\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch02_listing01.py",
+      "returncode": 0,
+      "seconds": 0.0978,
+      "stdout": "['абв'] 0.05000000000000001 0.132\n['а', 'б', 'в'] 0.0045 0.03409090909090909\n['а', 'бв'] 0.04000000000000001 0.3030303030303031\n['аб', 'в'] 0.0375 0.28409090909090906\n['абв'] 0.05 0.3787878787878788\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch02_listing02.py",
+      "returncode": 0,
+      "seconds": 0.3856,
+      "stdout": "9 1 [83, 128]\n5 5 [102, 76]\n1 9 [182, 72]\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch03_listing01.py",
+      "returncode": 0,
+      "seconds": 0.1001,
+      "stdout": "{'raw': 300, 'unique': 100, 'row_split_overlap': 47, 'group_split_overlap': 0}\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch03_listing02.py",
+      "returncode": 0,
+      "seconds": 0.0484,
+      "stdout": "Weighted bad fraction: 0.046\n0.8 0.02 (0.007804300176394188, 0.050287865505193874)\n0.2 0.15 (0.107135265876273, 0.20605693826655166)\n[11, 12, 13, 21, 22] [0, 0, 0, 1, 1] [[1, 0, 0, 0, 0], [1, 1, 0, 0, 0], [1, 1, 1, 0, 0], [0, 0, 0, 1, 0], [0, 0, 0, 1, 1]] [1, 1, 0, 1, 0]\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch04_listing01.py",
+      "returncode": 0,
+      "seconds": 0.6759,
+      "stdout": "{\n  \"model\": {\n    \"mse\": 3.4480166786067375e-07,\n    \"alpha\": 0.5,\n    \"beta\": 0.5,\n    \"E\": 1.5001323358566576,\n    \"A\": 0.5995919303811265,\n    \"B\": 0.39972398214910215\n  },\n  \"points\": [\n    [\n      1.0,\n      2.0,\n      2.3829838324826786\n    ],\n    [\n      1.0,\n      4.0,\n      2.299041075725337\n    ],\n    [\n      1.0,\n      8.0,\n      2.2418334747225517\n    ],\n    [\n      1.0,\n      16.0,\n      2.1990386025081206\n    ],\n    [\n      2.0,\n      2.0,\n      2.2063499786912395\n    ],\n    [\n      2.0,\n      4.0,\n      2.12398465321373\n    ],\n    [\n      2.0,\n      8.0,\n      2.0651414038383487\n    ],\n    [\n      2.0,\n      16.0,\n      2.023513081465157\n    ],\n    [\n      4.0,\n      2.0,\n      2.0825632969764203\n    ],\n    [\n      4.0,\n      4.0,\n      2.000989358246623\n    ],\n    [\n      4.0,\n      8.0,\n      1.940884783319309\n    ],\n    [\n      4.0,\n      16.0,\n      1.9009129452507278\n    ],\n    [\n      8.0,\n      2.0,\n      1.9944307257196938\n    ],\n    [\n      8.0,\n      4.0,\n      1.9115954614379638\n    ],\n    [\n      8.0,\n      8.0,\n      1.8532654872766086\n    ],\n    [\n      8.0,\n      16.0,\n      1.8112264559939577\n    ]\n  ],\n  \"holdout\": [\n    8.0,\n    16.0,\n    1.8112264559939577\n  ],\n  \"forecast\": 1.8120510913525465,\n  \"absolute_error\": 0.0008246353585887878\n}\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch04_listing02.py",
+      "returncode": 0,
+      "seconds": 0.0607,
+      "stdout": "8 {'operations': 120000000000000000000, 'hours': 104.16666666666667, 'gpu_hours': 833.3333333333334, 'steps': 76294, 'full_batch_tokens': 20000014336, 'cost': 833.3333333333334}\n16 {'operations': 120000000000000000000, 'hours': 52.083333333333336, 'gpu_hours': 833.3333333333334, 'steps': 76294, 'full_batch_tokens': 20000014336, 'cost': 833.3333333333334}\n32 {'operations': 120000000000000000000, 'hours': 26.041666666666668, 'gpu_hours': 833.3333333333334, 'steps': 76294, 'full_batch_tokens': 20000014336, 'cost': 833.3333333333334}\n64 {'operations': 120000000000000000000, 'hours': 13.020833333333334, 'gpu_hours': 833.3333333333334, 'steps': 76294, 'full_batch_tokens': 20000014336, 'cost': 833.3333333333334}\nBreak even tokens: 6000000000.0\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch05_listing01.py",
+      "returncode": 0,
+      "seconds": 0.4463,
+      "stdout": "Correct global gradient: [ 0.24915631  0.32176821 -0.84791552  0.10574043]\nWrong averaging error: 0.5227806450637708\nTensor groups: [[np.int64(0), np.int64(1)], [np.int64(2), np.int64(3)], [np.int64(4), np.int64(5)], [np.int64(6), np.int64(7)]]\nData groups: [[np.int64(0), np.int64(2), np.int64(4), np.int64(6)], [np.int64(1), np.int64(3), np.int64(5), np.int64(7)]]\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch05_listing02.py",
+      "returncode": 0,
+      "seconds": 0.0369,
+      "stdout": "1 {'replicated': 14.901161193847656, 'zero1': 14.901161193847656, 'zero2': 14.901161193847656, 'zero3': 14.901161193847656}\n8 {'replicated': 14.901161193847656, 'zero1': 5.122274160385132, 'zero2': 3.4924596548080444, 'zero3': 1.862645149230957}\n16 {'replicated': 14.901161193847656, 'zero1': 4.423782229423523, 'zero2': 2.6775524020195007, 'zero3': 0.9313225746154785}\n32 {'replicated': 14.901161193847656, 'zero1': 4.0745362639427185, 'zero2': 2.270098775625229, 'zero3': 0.46566128730773926}\n64 {'replicated': 14.901161193847656, 'zero1': 3.8999132812023163, 'zero2': 2.066371962428093, 'zero3': 0.23283064365386963}\nCheckpoint interval, seconds: 3219.937887599697\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch05_listing03.py",
+      "returncode": 0,
+      "seconds": 0.1092,
+      "stdout": "Corrupted checkpoint rejected\nIncomplete checkpoint rejected\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch05_listing04.py",
+      "returncode": 0,
+      "seconds": 0.0393,
+      "stdout": "{'gpus': 8, 'dp': 8, 'tp': 1, 'pp': 1, 'accumulation': 16, 'batch_tokens': 262144, 'parameters': 1072269312, 'steps': 76294, 'state_gib': 15.978057861328125, 'operations': 128672317440000000000, 'ideal_hours': 111.69472}\n{'gpus': 16, 'dp': 16, 'tp': 1, 'pp': 1, 'accumulation': 8, 'batch_tokens': 262144, 'parameters': 1072269312, 'steps': 76294, 'state_gib': 15.978057861328125, 'operations': 128672317440000000000, 'ideal_hours': 55.84736}\n{'gpus': 32, 'dp': 32, 'tp': 1, 'pp': 1, 'accumulation': 4, 'batch_tokens': 262144, 'parameters': 1072269312, 'steps': 76294, 'state_gib': 15.978057861328125, 'operations': 128672317440000000000, 'ideal_hours': 27.92368}\n{'gpus': 64, 'dp': 64, 'tp': 1, 'pp': 1, 'accumulation': 2, 'batch_tokens': 262144, 'parameters': 1072269312, 'steps': 76294, 'state_gib': 15.978057861328125, 'operations': 128672317440000000000, 'ideal_hours': 13.96184}\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch05_listing05.py",
+      "returncode": 0,
+      "seconds": 0.0292,
+      "stdout": "80 0.1456 0.0018199999999999883 0.14559999999999906\n20 0.1414 0.007070000000000021 0.14140000000000041\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch06_listing01.py",
+      "returncode": 0,
+      "seconds": 0.3445,
+      "stdout": "Final synthetic loss: 5.4209284478648356e-08\nResume is identical\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch06_listing02.py",
+      "returncode": 0,
+      "seconds": 0.2045,
+      "stdout": "cosine 0.54755 0.9467151705630613 0.946717065223438\nstable 0.8850500000000001 0.9152946557527956 0.9152985342318851\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch06_listing03.py",
+      "returncode": 0,
+      "seconds": 3.2654,
+      "stdout": "[\n  {\n    \"width\": 16,\n    \"raw\": 15.921829630512057,\n    \"normalized\": 0.9951143519070036\n  },\n  {\n    \"width\": 64,\n    \"raw\": 62.837579232841264,\n    \"normalized\": 0.9818371755131448\n  },\n  {\n    \"width\": 256,\n    \"raw\": 251.7407381003548,\n    \"normalized\": 0.983362258204511\n  },\n  {\n    \"width\": 1024,\n    \"raw\": 1017.1593101322554,\n    \"normalized\": 0.9933196388010307\n  }\n]\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch06_listing04.py",
+      "returncode": 0,
+      "seconds": 0.0578,
+      "stdout": "beta 0.998001\nhalf tokens 90806753.58192438\ndecay 0.19998999999992773 factor 0.9048328935585562\nwidth 16 normalized variance 2.5\nwidth 64 normalized variance 7.300000000000001\nwidth 256 normalized variance 26.5\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch07_listing01.py",
+      "returncode": 0,
+      "seconds": 0.3132,
+      "stdout": "max error 3.885780586188048e-16\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch07_listing02.py",
+      "returncode": 0,
+      "seconds": 0.0306,
+      "stdout": "KV heads 32 GiB 16.0\nKV heads 8 GiB 4.0\nKV heads 1 GiB 0.5\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch07_listing03.py",
+      "returncode": 0,
+      "seconds": 0.1309,
+      "stdout": "bytes per token 131072\nadmitted [(4096, 1024), (8192, 2048), (16384, 4096)]\nrejected [(32768, 4096)]\nreserved GiB 4.375\nmissing output reserve GiB 0.875\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch07_listing04.py",
+      "returncode": 0,
+      "seconds": 0.449,
+      "stdout": "length 256 tail accuracy [1.0, 1.0, 1.0]\nlength 1024 tail accuracy [0.0, 1.0, 1.0]\nlength 4096 tail accuracy [0.0, 0.0, 1.0]\nWilson 45/50 0.7863950966521162 0.956524876008429\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch08_listing01.py",
+      "returncode": 0,
+      "seconds": 0.1652,
+      "stdout": "{\"test\": 69, \"train\": 231}\ngroup overlap 0\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch08_listing02.py",
+      "returncode": 0,
+      "seconds": 0.3098,
+      "stdout": "masked loss 1.967986157067709\nLoRA parameters 66\nfull parameters 120\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch08_listing03.py",
+      "returncode": 0,
+      "seconds": 0.8486,
+      "stdout": "start 0.300328884165895 final 1.4598918183897438e-20\nholdout relative 2.4938263867299694e-10\ntrainable 28\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch09_listing01.py",
+      "returncode": 0,
+      "seconds": 0.2736,
+      "stdout": "agreement 0.8 kappa 0.6000000000000001\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch09_listing02.py",
+      "returncode": 0,
+      "seconds": 0.5331,
+      "stdout": "initial DPO loss 0.6931471805599453\nfinal DPO loss 0.32918378548392635\npreferred action probability 0.8297804852057891\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch09_listing03.py",
+      "returncode": 0,
+      "seconds": 0.0798,
+      "stdout": "'42' 1.0 True\n'42 is mentioned but the answer is 0' 1.0 False\n'84/2' 0.0 True\n'0042' 1.0 True\n'420' 1.0 False\n'NaN' 0.0 False\n'1/0' 0.0 False\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch09_listing04.py",
+      "returncode": 0,
+      "seconds": 0.2645,
+      "stdout": "(1, 30) (1, 200) proxy left False target left True\n(1, 30) (0, 200) proxy left False target left True\n(1, 150) (0, 30) proxy left True target left True\n(0, 30) (0, 200) proxy left False target left True\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch10_listing01.py",
+      "returncode": 0,
+      "seconds": 0.4444,
+      "stdout": "bits 4 group 16 relative error 0.08730635633617222\nbits 4 group 64 relative error 0.1110225444294246\nbits 8 group 16 relative error 0.004998600657796884\nbits 8 group 64 relative error 0.00589730229447452\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch10_listing02.py",
+      "returncode": 0,
+      "seconds": 0.5109,
+      "stdout": "acceptance 0.6000000000000001\nacceptance 0.0\nacceptance 1.0\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch10_listing03.py",
+      "returncode": 0,
+      "seconds": 0.0599,
+      "stdout": "block 8 allocated 272 waste 28\nblock 16 allocated 304 waste 60\nblock 32 allocated 352 waste 108\nblock 64 allocated 448 waste 204\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch10_listing04.py",
+      "returncode": 0,
+      "seconds": 0.4803,
+      "stdout": "arrival interval 2.5 mean waiting 2.025 p95 completion 10.0\narrival interval 1.5 mean waiting 20.025 p95 completion 40.025\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch10_listing05.py",
+      "returncode": 0,
+      "seconds": 0.047,
+      "stdout": "0.25 20.0\n0.5 12.0\n0.75 9.333333333333334\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch11_listing01.py",
+      "returncode": 0,
+      "seconds": 0.1649,
+      "stdout": "authorization: 4/4\nzero failures among 100: (0.0, 0.03699480747600191)\nzero failures among 1000: (0.0, 0.003826898586390522)\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch11_listing02.py",
+      "returncode": 0,
+      "seconds": 0.052,
+      "stdout": "precision, recall, fpr: 0.8181818181818182 0.9 0.022222222222222223\nprevalence 0.1 ppv 0.8181818181818181\nprevalence 0.01 ppv 0.2903225806451613\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch11_listing03.py",
+      "returncode": 0,
+      "seconds": 0.0402,
+      "stdout": "1 10.0\n8 7.0\n128 3.0\n1024 0.0\n",
+      "stderr": ""
+    },
+    {
+      "file": "ch12_listing01.py",
+      "returncode": 0,
+      "seconds": 0.1836,
+      "stdout": "controller: 8/8\n",
+      "stderr": ""
+    }
+  ],
+  "passed": 37,
+  "total": 37
+}
